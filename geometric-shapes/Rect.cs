@@ -6,24 +6,18 @@ using System.Threading.Tasks;
 
 namespace geometric_shapes
 {
-    internal class Rect
-    {
-        public int LongSide { get; set; }
-        public int ShortSide { get; set; }
-
-        public int Perimeter()
+    internal class Rect : Quad{
+        public override int Perimeter()
         {
-            return (2 * LongSide) + (2 * ShortSide);
+            return base.Perimeter();
         }
         public int Area()
         {
-            return LongSide * ShortSide;
+            return Side1 * Side2;
         }
-        public Rect() { }
-        public Rect(int longSide, int shortSide)
+        public Rect() : base() { }
+        public Rect(int Side1, int Side2) : base(Side1, Side2, Side1, Side2)
         {
-            LongSide = longSide;
-            ShortSide = shortSide;
         }
     }
 }

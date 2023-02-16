@@ -13,8 +13,48 @@ Console.WriteLine($"Perimeter is {q1.Perimeter()}");
 
 
 
-
-
+/* Timothy Doren
+Intellection | Input | Achiever | Learner | Ideation
+Share to Facebook
+Share to Twitter
+Share to LinkedIn
+Intellection
+Input
+Achiever
+Learner
+Ideation
+Arranger
+Belief
+Consistency
+Deliberative
+Discipline
+Focus
+Responsibility
+Restorative
+Activator
+Command
+Communication
+Competition
+Maximizer
+Self-Assurance
+Significance
+Woo
+Adaptability
+Connectedness
+Developer
+Empathy
+Harmony
+Includer
+Individualization
+Positivity
+Relator
+Analytical
+Context
+Futuristic
+Strategic
+ * 
+ * 
+*/
 
 
 

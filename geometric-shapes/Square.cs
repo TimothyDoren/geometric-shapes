@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace geometric_shapes
 {
-    internal class Square
+    internal class Square : Rect
     {
-        public int Side { get; set; }
 
         public int Perimeter()
         {
-            return Side * 4;
+            return base.Perimeter();
         }
         public int Area()
         {
-            return Side * Side;
+            return base.Area();
         }
-        public Square() { }
-        public Square(int side)
+        public Square() : base() { }
+        public Square(int side) : base(side, side) // this is borrowing from the base class which is the rectangle. 
         {
-            Side = side;
         }
     }
 }
